@@ -38,7 +38,7 @@ const Navbar = () => {
             <HiMenuAlt4 fontSize={28} className="text-white md:hidden cursor-pointer" onClick={() => setToggleMenu(true)}/>
           )}
           {toggleMenu && (
-            <ul className="z-10 fixed top-0 -right-2 p-3 w-[70vw]">
+            <ul className="z-10 fixed top-0 -right-2 p-3 w-[70vw] h-screen">
               <li>
                 <AiOutlineClose onClick={() => setToggleMenu(false)}/>
               </li>
