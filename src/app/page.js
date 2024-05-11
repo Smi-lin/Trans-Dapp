@@ -1,4 +1,4 @@
-import { Navbar } from '@/components'
+import { Navbar, Welcome } from '@/components'
 import React from 'react'
 
 const page = () => {
@@ -6,6 +6,7 @@ const page = () => {
     <div className='min-h-screen'>
       <div className='gradient-bg-welcome'>
         <Navbar/>
+        <Welcome/>
       </div>
 
     </div>
