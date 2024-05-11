@@ -34,12 +34,14 @@ const Welcome = () => {
             <div className="p-3 justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card white-glassmorphism">
               <div className="flex justify-between flex-col w-full h-full">
                <div className="flex justify-between items-start">
-               <div>
+               <div className="w-10 h-10 rounded-full border-2 border-white flex justify-center items-start">
                   <SiEthereum fontSize={21} color="#fff"/>
                 </div>
                 <BsInfoCircle fontSize={17} color="#fff"/>
                </div>
               </div>
+
+              <p></p>
             </div>
           </div>
         </div>
